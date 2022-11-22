@@ -1,0 +1,150 @@
+body {
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  font-family: "Rubik Distressed", cursive;
+  opacity: 80%;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Syne Mono", monospace;
+}
+img {
+  border-radius: 12px;
+  width: 100%;
+  height: 50%;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  color: rgb(130, 60, 159);
+}
+.theme-button {
+  background: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(181, 255, 255) 100.5%
+  );
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 15px 20px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.theme-button:hover {
+  color: rgb(130, 60, 159);
+  background: white;
+}
+.container {
+  margin: 50px auto;
+  max-width: 550px;
+  padding: 40px;
+  border: 4px solid;
+  border-radius: 16px;
+}
+.grid-1 {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-image-1 {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 130ms ease-in-out;
+}
+
+.grid-image-1:hover {
+  transform: scale(1.1);
+  filter: 80%;
+}
+
+.grid-2 {
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.grid-image-2 {
+  width: 100%;
+  height: max-content;
+  border-radius: 20px;
+  transition: all 130ms ease-in-out;
+}
+
+.grid-image-2:hover {
+  transform: scale(2);
+}
+
+.connect-btn {
+  background: linear-gradient(
+    68.6deg,
+    rgb(252, 165, 241) 1.8%,
+    rgb(181, 255, 255) 100.5%
+  );
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+.connect-btn:hover {
+  color: rgb(130, 60, 159);
+  background: rgb(224, 234, 243);
+}
+
+.dark {
+  background: linear-gradient(
+    112.1deg,
+    rgb(32, 38, 57) 11.4%,
+    rgb(63, 76, 119) 70.2%
+  );
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 70px;
+  }
+}
+
+@media (width: 280px) {
+  h1 {
+    font-size: 50px;
+  }
+}
