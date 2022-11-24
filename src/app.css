@@ -91,7 +91,7 @@ footer a {
 
 .grid-image-2 {
   width: 100%;
-  height: max-content;
+  height: auto;
   border-radius: 20px;
   transition: all 130ms ease-in-out;
 }
